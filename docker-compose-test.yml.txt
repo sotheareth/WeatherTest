@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  weather:
+    image: sotheareth/weatherforecast
+    container_name: weather    
+    network_mode: host
+
+
