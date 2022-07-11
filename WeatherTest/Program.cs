@@ -48,7 +48,7 @@ namespace WeatherTest
 
                     //webBuilder.ConfigureKestrel(serverOptions =>
                     //{
-                    //    serverOptions.Listen(IPAddress.Loopback, Convert.ToInt32(Environment.GetEnvironmentVariable("Port")));
+                    //    serverOptions.Listen(IPAddress.Any, Convert.ToInt32(Environment.GetEnvironmentVariable("Port")));
                     //}).UseStartup<Startup>();
 
                 });

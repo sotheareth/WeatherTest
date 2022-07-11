@@ -13,7 +13,7 @@ services:
       context: .
       dockerfile: WeatherTest/Dockerfile
     ports:
-    - 11361:80
+    - 23712:80
     - 44315:443
     volumes:
       - ~/aspnet/https/:/https:ro
